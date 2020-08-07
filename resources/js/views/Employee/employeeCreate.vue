@@ -33,7 +33,7 @@
                     <p class="text-red-700 text-xs" v-text="errorMessage()"></p>
                 </div>
                 <div class="relative pb-4">
-                    <select name="company_id" id="company_id" v-model="form.company_id">
+                    <select name="company_id" id="company_id" v-model="form.company_id" class="bg-blue-300">
                         <option  v-for="company in companies" :value="company.data.id">
                             {{ company.data.name }}
                         </option>

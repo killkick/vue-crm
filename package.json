@@ -24,8 +24,6 @@
     },
     "dependencies": {
         "laravel-vue-pagination": "^2.3.1",
-        "laravel-vue-tailwind-pagination": "^0.1.8",
-        "vue-flag-icon": "^1.0.6",
         "vue-i18n": "^8.20.0"
     }
 }

@@ -2,9 +2,6 @@
     <div>
         <company-list :data="companies"></company-list>
         <div class="mt-6">
-            <router-link to="/company/create" class="text sm text-blue-400 bg-white border border-blue-500 hover:border-blue-300 py-2 px-4 rounded mt-6 ">
-                Create company
-            </router-link>
         </div>
         <paginate :data="companies" @pagination-change-page="getResults"></paginate>
     </div>
